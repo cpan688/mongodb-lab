@@ -21,7 +21,7 @@ MongoClient.connect(process.env.DB, (err, database) => {
     if (err) throw err
     console.log('Connected to database...')
 
-    let query = { name: 'Cody Pendant' }
+    let query = { name: 'Jane Johnson' }
     
     database
         .db('vectacorp')
