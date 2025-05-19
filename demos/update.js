@@ -6,7 +6,7 @@ MongoClient.connect(process.env.DB, (err, database) => {
     if (err) throw err
     console.log('Connected to database...')
 
-    let query = { name: 'Konnor Welch' }
+    let query = { name: 'Jane Johnson' }
     let queryUpdate = { $set: { name: 'Zak Ruvalcaba', email: 'zak@vectacorp.com' } }
 
     database

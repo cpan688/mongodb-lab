@@ -7,10 +7,10 @@ MongoClient.connect(process.env.DB, (err, database) => {
     console.log('Connected to database...')
 
     let employee = {
-        name: 'Jane Johnson',
-        extension: 1115,
-        email: 'jane@vectacorp.com',
-        title: 'Director of Sales', 
+        name: 'Leticia Wedge',
+        extension: 1120,
+        email: 'leticia@vectacorp.com',
+        title: 'Quality Assurance', 
         dateHired: Date.now(),
         currentlyEmployed: true
     }
